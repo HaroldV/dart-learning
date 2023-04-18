@@ -1,3 +1,5 @@
+// ignore_for_file: dead_code
+
 void main(){
   var age = 12;
   // only if
@@ -10,7 +12,7 @@ void main(){
   // basado en boolean
 
   bool isMarried = false;
-  if(isMarried){
+  if(isMarried) {
     print("You are married");
   } else {
     print("You are single");
